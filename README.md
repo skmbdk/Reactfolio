@@ -79,38 +79,34 @@ Directory: `/src/data/`
             - In React there has no keyword `class`, so you should use `className` to define html classes.
 
             ```js
-function article_4() {
-    return {
-        date: "15 August 2023",
-        title: "The Future of Artificial Intelligence",
-        description: "Exploring the evolving landscape of AI technology.",
-        style: `
-                .article-banner {
-                    background-color: #3498db;
-                    color: #ffffff;
-                    padding: 20px;
-                    text-align: center;
-                }
-                `,
-        body: (
-            <React.Fragment>
-                <div className="article-content">
-                    <div className="article-banner">
-                        Special Feature
-                    </div>
-                    <div className="paragraph">
-                        As technology advances, so does the future of Artificial Intelligence. In this article, we delve into the latest trends and innovations shaping the AI landscape.
-                    </div>
-                    <img
-                        src="https://picsum.photos/250/350"
-                        alt="AI illustration"
-                        className="article-image"
-                    />
-                </div>
-            </React.Fragment>
-        ),
-    };
-}
+    function article_3() {
+            	return {
+            		date: "7 May 2023",
+            		title: "The Benefits of Cloud Computing",
+            		description: "Why businesses are turning to the cloud.",
+            		style: `
+            				.random-image {
+            					align-self: center;
+            					outline: 2px solid red;
+            				}
+            				`,
+            		body: (
+            			<React.Fragment>
+            				<div className="article-content">
+            					<div className="paragraph">
+            						Content of article 1
+            					</div>
+            					<img
+            						src="https://picsum.photos/200/300"
+            						alt="random"
+            						className="random-image"
+            					/>
+            				</div>
+            			</React.Fragment>
+            		),
+            	};
+            }
+
 
             ```
 

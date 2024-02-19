@@ -1,12 +1,12 @@
-# Reactfolio by Rammy 👩🏽‍🚀
+# Reactofolio by Rammy 👩🏽‍🚀
 
-Reactfolio is a modern and customizable personal portfolio web template built using the popular React library. It provides an easy way for developers, designers, and creatives to showcase their work, skills, and achievements in a professiona and visually appealing way. With its responsive design and clean code, Reactfolio can be easily tailored to suit individual needs and preferences, making it an ideal choice for anyone looking to create a stunning online portfolio.
+Reactofolio is a modern and customizable personal portfolio web template built using the popular React library. It provides an easy way for developers, designers, and creatives to showcase their work, skills, and achievements in a professiona and visually appealing way. With its responsive design and clean code, Reactofolio can be easily tailored to suit individual needs and preferences, making it an ideal choice for anyone looking to create a stunning online portfolio.
 
 
 
 ![Screenshot (24)](https://github.com/skmbdk/portfolio_by_rammy/assets/140899891/98fb7995-1c6a-44b8-8444-1f05e0d7e416)
 
-Live demo here: <a href="https://reactofolio.netlify.app/" target="_blank">reactfolio.netlify.app</a>
+Live demo here: <a href="https://reactofolio.netlify.app/" target="_blank">reactofolio.netlify.app</a>
 <br/>
 
 
@@ -208,5 +208,5 @@ If you are using Apache as your web server, you can insert this into your .htacc
 
 ## 🌱 Contribution
 
-If you have any suggestions on what to improve in Reactfolio and would like to share them, feel free to leave an issue or fork project to implement your own ideas
-# Reactfolio
+If you have any suggestions on what to improve in Reactofolio and would like to share them, feel free to leave an issue or fork project to implement your own ideas
+# Reactofolio

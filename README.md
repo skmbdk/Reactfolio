@@ -131,14 +131,17 @@ Directory: `/src/data/`
     Example:
 
     ```js
+
+    
     const SEO = [
     	{
-    		page: "home",
+    		page: "about",
     		description:
-    			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-    		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"I am a passionate software engineer with a focus on front-end development. I excel in creating efficient and user-friendly applications, leveraging my skills in  front-end  technologies.",
+    		keywords: ["software engineer", "full-stack developer", "web development"],
     	},
     ];
+ 
     ```
 
 -   `styles.css`

@@ -6,7 +6,7 @@ Reactfolio is a modern and customizable personal portfolio web template built us
 
 ![Screenshot (24)](https://github.com/skmbdk/portfolio_by_rammy/assets/140899891/98fb7995-1c6a-44b8-8444-1f05e0d7e416)
 
-Live demo here: <a href="https://reactofolio.netlify.app/" target="_blank">reactfolio.tharindu.dev</a>
+Live demo here: <a href="https://reactofolio.netlify.app/" target="_blank">reactfolio.netlify.app</a>
 <br/>
 
 

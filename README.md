@@ -79,7 +79,7 @@ Directory: `/src/data/`
             - In React there has no keyword `class`, so you should use `className` to define html classes.
 
             ```js
-    function article_3() {
+            function article_3() {
             	return {
             		date: "7 May 2023",
             		title: "The Benefits of Cloud Computing",
@@ -96,20 +96,16 @@ Directory: `/src/data/`
             					<div className="paragraph">
             						Content of article 1
             					</div>
-                 ```
-            					//<img
+            					<img
             						src="https://picsum.photos/200/300"
             						alt="random"
             						className="random-image"
             					/>
-                 ```
             				</div>
             			</React.Fragment>
             		),
             	};
             }
-
-
             ```
 
         3. In the last lines you will see an array to which you need to add your new `articles` function.
@@ -135,15 +131,14 @@ Directory: `/src/data/`
     Example:
 
     ```js
-const SEO = [
-    {
-        page: "portofolio",
-        description:
-            "I am a versatile full-stack developer passionate about creating innovative and user-friendly web solutions. My skills include proficiency in both frontend and backend technologies, ensuring a holistic approach to application development.",
-        keywords: ["developer", "portfolio", "web solutions", "full-stack", "innovative"],
-    },
-];
-
+    const SEO = [
+    	{
+    		page: "home",
+    		description:
+    			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
+    		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+    	},
+    ];
     ```
 
 -   `styles.css`
@@ -151,21 +146,20 @@ const SEO = [
     From this you can change the font colors and font families of the web application.
 
     ```css
-:root {
-    /* ------- colors ------- */
-    --primary-color: #1a1a1a;
-    --secondary-color: #4d4d4d;
-    --tertiary-color: #999999;
-    --quaternary-color: #cccccc;
-    --link-color: #ff6600;
-    /* ---------------------- */
+    :root {
+    	/* ------- colors ------- */
+    	--primary-color: #27272a;
+    	--secondary-color: #65656d;
+    	--tertiary-color: #acacb4;
+    	--quaternary-color: #e4e4e7;
+    	--link-color: #14b8a6;
+    	/* ---------------------- */
 
-    /* ------- fonts ------- */
-    --primary-font: "Montserrat", sans-serif;
-    --secondary-font: "Lato", sans-serif;
-    /* --------------------- */
-}
-
+    	/* ------- fonts ------- */
+    	--primary-font: "Heebo", sans-serif;
+    	--secondary-font: "Roboto", sans-serif;
+    	/* --------------------- */
+    }
     ```
 
 ## 📈 Google Analytics
@@ -215,4 +209,3 @@ If you are using Apache as your web server, you can insert this into your .htacc
 ## 🌱 Contribution
 
 If you have any suggestions on what to improve in Reactofolio and would like to share them, feel free to leave an issue or fork project to implement your own ideas
-# Reactofolio

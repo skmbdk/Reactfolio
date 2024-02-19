@@ -79,33 +79,39 @@ Directory: `/src/data/`
             - In React there has no keyword `class`, so you should use `className` to define html classes.
 
             ```js
-            function article_3() {
-            	return {
-            		date: "7 May 2023",
-            		title: "The Benefits of Cloud Computing",
-            		description: "Why businesses are turning to the cloud.",
-            		style: `
-            				.random-image {
-            					align-self: center;
-            					outline: 2px solid red;
-            				}
-            				`,
-            		body: (
-            			<React.Fragment>
-            				<div className="article-content">
-            					<div className="paragraph">
-            						Content of article 1
-            					</div>
-            					<img
-            						src="https://picsum.photos/200/300"
-            						alt="random"
-            						className="random-image"
-            					/>
-            				</div>
-            			</React.Fragment>
-            		),
-            	};
-            }
+function article_4() {
+    return {
+        date: "15 August 2023",
+        title: "The Future of Artificial Intelligence",
+        description: "Exploring the evolving landscape of AI technology.",
+        style: `
+                .article-banner {
+                    background-color: #3498db;
+                    color: #ffffff;
+                    padding: 20px;
+                    text-align: center;
+                }
+                `,
+        body: (
+            <React.Fragment>
+                <div className="article-content">
+                    <div className="article-banner">
+                        Special Feature
+                    </div>
+                    <div className="paragraph">
+                        As technology advances, so does the future of Artificial Intelligence. In this article, we delve into the latest trends and innovations shaping the AI landscape.
+                    </div>
+                    <img
+                        src="https://picsum.photos/250/350"
+                        alt="AI illustration"
+                        className="article-image"
+                    />
+                </div>
+            </React.Fragment>
+        ),
+    };
+}
+
             ```
 
         3. In the last lines you will see an array to which you need to add your new `articles` function.
@@ -131,14 +137,15 @@ Directory: `/src/data/`
     Example:
 
     ```js
-    const SEO = [
-    	{
-    		page: "home",
-    		description:
-    			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-    		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
-    	},
-    ];
+const SEO = [
+    {
+        page: "portofolio",
+        description:
+            "I am a versatile full-stack developer passionate about creating innovative and user-friendly web solutions. My skills include proficiency in both frontend and backend technologies, ensuring a holistic approach to application development.",
+        keywords: ["developer", "portfolio", "web solutions", "full-stack", "innovative"],
+    },
+];
+
     ```
 
 -   `styles.css`
@@ -146,20 +153,21 @@ Directory: `/src/data/`
     From this you can change the font colors and font families of the web application.
 
     ```css
-    :root {
-    	/* ------- colors ------- */
-    	--primary-color: #27272a;
-    	--secondary-color: #65656d;
-    	--tertiary-color: #acacb4;
-    	--quaternary-color: #e4e4e7;
-    	--link-color: #14b8a6;
-    	/* ---------------------- */
+:root {
+    /* ------- colors ------- */
+    --primary-color: #1a1a1a;
+    --secondary-color: #4d4d4d;
+    --tertiary-color: #999999;
+    --quaternary-color: #cccccc;
+    --link-color: #ff6600;
+    /* ---------------------- */
 
-    	/* ------- fonts ------- */
-    	--primary-font: "Heebo", sans-serif;
-    	--secondary-font: "Roboto", sans-serif;
-    	/* --------------------- */
-    }
+    /* ------- fonts ------- */
+    --primary-font: "Montserrat", sans-serif;
+    --secondary-font: "Lato", sans-serif;
+    /* --------------------- */
+}
+
     ```
 
 ## 📈 Google Analytics

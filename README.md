@@ -96,11 +96,13 @@ Directory: `/src/data/`
             					<div className="paragraph">
             						Content of article 1
             					</div>
-            					<img
+                 ```
+            					//<img
             						src="https://picsum.photos/200/300"
             						alt="random"
             						className="random-image"
             					/>
+                 ```
             				</div>
             			</React.Fragment>
             		),
